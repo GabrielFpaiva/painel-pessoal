@@ -319,6 +319,17 @@ max_frequency = "5s"
 # Use an external OAuth provider. The full list of providers are: `apple`, `azure`, `bitbucket`,
 # `discord`, `facebook`, `github`, `gitlab`, `google`, `keycloak`, `linkedin_oidc`, `notion`, `twitch`,
 # `twitter`, `x`, `slack`, `spotify`, `workos`, `zoom`.
+# Único provedor do produto. Para ligar no local:
+#   1. GitHub > Settings > Developer settings > OAuth Apps > New OAuth App
+#   2. Homepage: http://localhost:3000
+#      Authorization callback URL: http://127.0.0.1:54321/auth/v1/callback
+#   3. Ponha o client id e o secret no .env.local e rode `supabase stop && supabase start`
+[auth.external.github]
+enabled = true
+client_id = "env(SUPABASE_AUTH_GITHUB_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_GITHUB_SECRET)"
+redirect_uri = ""
+
 [auth.external.apple]
 enabled = false
 client_id = ""
