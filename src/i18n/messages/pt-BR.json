@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Painel",
+    "tagline": "Seu progresso em um lugar só."
+  },
+  "home": {
+    "title": "Painel",
+    "intro": "Certificados, cursos, missões, livros e a sua grade curricular — tudo em um lugar só.",
+    "signIn": "Entrar com o GitHub",
+    "sampleLabel": "Amostra de dado",
+    "sampleHint": "Número em coluna: esta é a assinatura do painel."
+  },
+  "theme": {
+    "label": "Tema",
+    "toggle": "Alternar entre tema claro e escuro"
+  },
+  "locale": {
+    "label": "Idioma",
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "state": {
+    "loading": "Carregando…",
+    "errorTitle": "Alguma coisa quebrou aqui",
+    "errorRetry": "Tentar de novo",
+    "emptyTitle": "Nada por aqui ainda"
+  }
+}

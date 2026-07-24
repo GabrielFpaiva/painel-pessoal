@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Painel",
+    "tagline": "Your progress in one place."
+  },
+  "home": {
+    "title": "Painel",
+    "intro": "Certificates, courses, missions, books and your curriculum — all in one place.",
+    "signIn": "Sign in with GitHub",
+    "sampleLabel": "Sample data",
+    "sampleHint": "Numbers line up in a column: that is the panel's signature."
+  },
+  "theme": {
+    "label": "Theme",
+    "toggle": "Switch between light and dark theme"
+  },
+  "locale": {
+    "label": "Language",
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "state": {
+    "loading": "Loading…",
+    "errorTitle": "Something broke here",
+    "errorRetry": "Try again",
+    "emptyTitle": "Nothing here yet"
+  }
+}
