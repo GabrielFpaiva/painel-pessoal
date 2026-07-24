@@ -45,5 +45,14 @@ next-env.d.ts
 .env*.local
 supabase/.temp/
 
+# O exemplo entra no repositório: é ele que documenta quais variáveis existem.
+!.env.local.example
+
 # Playwright MCP
 .playwright-mcp/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

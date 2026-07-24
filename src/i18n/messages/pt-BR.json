@@ -19,6 +19,67 @@
     "pt-BR": "Português",
     "en": "English"
   },
+  "nav": {
+    "label": "Navegação principal",
+    "dashboard": "Hoje",
+    "academico": "Acadêmico",
+    "missoes": "Missões",
+    "biblioteca": "Biblioteca",
+    "certificados": "Certificados",
+    "cursos": "Cursos",
+    "roadmap": "Roadmap",
+    "github": "GitHub",
+    "config": "Configurações"
+  },
+  "palette": {
+    "title": "Comandos",
+    "description": "Navegue e crie sem sair do teclado.",
+    "placeholder": "Buscar ou criar…",
+    "empty": "Nada com esse nome.",
+    "create": "Criar",
+    "navigate": "Ir para",
+    "new": "Nova",
+    "add": "Adicionar"
+  },
+  "auth": {
+    "loginTitle": "Entrar",
+    "loginSubtitle": "Sua conta do GitHub é a chave — é ela que traz seus repositórios depois.",
+    "signIn": "Entrar com o GitHub",
+    "signingIn": "Abrindo o GitHub…",
+    "inviteOnly": "O cadastro é por convite. Sem um código válido, a conta não é criada.",
+    "errors": {
+      "oauth_failed": "Não deu para falar com o GitHub agora. Tente de novo em alguns segundos.",
+      "sem_codigo": "O GitHub não devolveu o código de autorização. Comece o login de novo.",
+      "falha_no_login": "A sessão não foi criada. Comece o login de novo."
+    }
+  },
+  "invite": {
+    "title": "Aceitar convite",
+    "subtitle": "Falta o código do convite e o nome que vai no seu endereço público.",
+    "codeLabel": "Código do convite",
+    "usernameLabel": "Nome de usuário",
+    "usernameHint": "De 3 a 30 caracteres: letras minúsculas, números, hífen e sublinhado. Vai virar /u/seu-nome.",
+    "submit": "Criar minha conta",
+    "submitting": "Criando…",
+    "errors": {
+      "not_authenticated": "Sua sessão expirou. Entre com o GitHub de novo.",
+      "already_has_profile": "Esta conta já tem perfil.",
+      "code_required": "Digite o código do convite.",
+      "code_not_found": "Não existe convite com esse código. Confira se copiou inteiro.",
+      "code_expired": "Este convite venceu. Peça um código novo a quem convidou você.",
+      "code_already_used": "Este convite já foi usado. Cada código serve uma vez só.",
+      "username_required": "Escolha um nome de usuário.",
+      "username_too_short": "O nome precisa de pelo menos 3 caracteres.",
+      "username_too_long": "O nome passa de 30 caracteres.",
+      "username_invalid_chars": "Use só letras minúsculas, números, hífen e sublinhado — sem espaço nem acento.",
+      "username_taken": "Este nome já é de outra pessoa. Escolha outro.",
+      "unknown": "Alguma coisa quebrou ao criar a conta. Tente de novo."
+    }
+  },
+  "page": {
+    "soonTitle": "Esta tela ainda não existe",
+    "soon": "Ela entra na Fase {phase}. A casca já está de pé para você navegar."
+  },
   "state": {
     "loading": "Carregando…",
     "errorTitle": "Alguma coisa quebrou aqui",

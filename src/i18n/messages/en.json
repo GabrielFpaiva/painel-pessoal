@@ -19,6 +19,67 @@
     "pt-BR": "Português",
     "en": "English"
   },
+  "nav": {
+    "label": "Main navigation",
+    "dashboard": "Today",
+    "academico": "Academics",
+    "missoes": "Missions",
+    "biblioteca": "Library",
+    "certificados": "Certificates",
+    "cursos": "Courses",
+    "roadmap": "Roadmap",
+    "github": "GitHub",
+    "config": "Settings"
+  },
+  "palette": {
+    "title": "Commands",
+    "description": "Navigate and create without leaving the keyboard.",
+    "placeholder": "Search or create…",
+    "empty": "Nothing by that name.",
+    "create": "Create",
+    "navigate": "Go to",
+    "new": "New",
+    "add": "Add"
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "loginSubtitle": "Your GitHub account is the key — it also brings in your repositories later.",
+    "signIn": "Sign in with GitHub",
+    "signingIn": "Opening GitHub…",
+    "inviteOnly": "Sign-up is invite-only. Without a valid code, no account is created.",
+    "errors": {
+      "oauth_failed": "Could not reach GitHub right now. Try again in a few seconds.",
+      "sem_codigo": "GitHub did not return an authorization code. Start the sign-in again.",
+      "falha_no_login": "The session was not created. Start the sign-in again."
+    }
+  },
+  "invite": {
+    "title": "Accept invite",
+    "subtitle": "We still need your invite code and the name that goes in your public address.",
+    "codeLabel": "Invite code",
+    "usernameLabel": "Username",
+    "usernameHint": "3 to 30 characters: lowercase letters, numbers, hyphen and underscore. It becomes /u/your-name.",
+    "submit": "Create my account",
+    "submitting": "Creating…",
+    "errors": {
+      "not_authenticated": "Your session expired. Sign in with GitHub again.",
+      "already_has_profile": "This account already has a profile.",
+      "code_required": "Type the invite code.",
+      "code_not_found": "No invite matches that code. Check whether you copied all of it.",
+      "code_expired": "This invite expired. Ask whoever invited you for a new code.",
+      "code_already_used": "This invite was already used. Each code works once.",
+      "username_required": "Pick a username.",
+      "username_too_short": "The name needs at least 3 characters.",
+      "username_too_long": "The name goes over 30 characters.",
+      "username_invalid_chars": "Use only lowercase letters, numbers, hyphen and underscore — no spaces or accents.",
+      "username_taken": "That name belongs to someone else. Pick another.",
+      "unknown": "Something broke while creating the account. Try again."
+    }
+  },
+  "page": {
+    "soonTitle": "This screen does not exist yet",
+    "soon": "It lands in Phase {phase}. The shell is already up so you can navigate."
+  },
   "state": {
     "loading": "Loading…",
     "errorTitle": "Something broke here",

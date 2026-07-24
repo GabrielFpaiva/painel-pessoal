@@ -20,14 +20,6 @@ begin
   return new;
 end $$;
 
--- Usada nas policies de leitura pública. SECURITY DEFINER para não cair em
--- recursão de RLS ao consultar profiles de dentro de uma policy.
-create or replace function public.is_profile_public(p_user_id uuid)
-returns boolean
-language sql stable security definer set search_path = public as $$
-  select coalesce((select is_public from public.profiles where id = p_user_id), false)
-$$;
-
 -- =============================================================================
 -- Conta e perfil
 -- =============================================================================
@@ -47,6 +39,16 @@ create table public.profiles (
 
 create trigger t_profiles_updated before update on public.profiles
   for each row execute function public.touch_updated_at();
+
+-- Usada nas policies de leitura pública. SECURITY DEFINER para não cair em
+-- recursão de RLS ao consultar profiles de dentro de uma policy.
+-- Precisa vir depois de `profiles`: função `language sql` tem o corpo validado
+-- na criação, então referenciar a tabela antes dela existir derruba a migration.
+create or replace function public.is_profile_public(p_user_id uuid)
+returns boolean
+language sql stable security definer set search_path = public as $$
+  select coalesce((select is_public from public.profiles where id = p_user_id), false)
+$$;
 
 alter table public.profiles enable row level security;
 
