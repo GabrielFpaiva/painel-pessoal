@@ -76,6 +76,72 @@
       "unknown": "Alguma coisa quebrou ao criar a conta. Tente de novo."
     }
   },
+  "certificates": {
+    "title": "Certificados",
+    "new": "Novo certificado",
+    "count": "{count, plural, =0 {Nenhum certificado} one {# certificado} other {# certificados}}",
+    "loading": "Carregando certificados…",
+    "empty": {
+      "title": "Nenhum certificado ainda",
+      "description": "Guarde aqui seus certificados, com arquivo e link de verificação.",
+      "cta": "Adicionar o primeiro"
+    },
+    "form": {
+      "createTitle": "Novo certificado",
+      "editTitle": "Editar certificado",
+      "titleLabel": "Título",
+      "titlePlaceholder": "AWS Certified Cloud Practitioner",
+      "institutionLabel": "Instituição",
+      "issuedOnLabel": "Emitido em",
+      "expiresOnLabel": "Vence em",
+      "workloadLabel": "Carga horária (h)",
+      "credentialLabel": "ID da credencial",
+      "verificationUrlLabel": "Link de verificação",
+      "fileLabel": "Arquivo",
+      "fileHint": "PDF, PNG ou JPG, até 5 MB. É opcional.",
+      "fileCurrent": "Arquivo atual",
+      "fileReplace": "Escolher outro arquivo",
+      "publicLabel": "Mostrar no perfil público",
+      "publicHint": "O arquivo nunca aparece — só o card e o link de verificação.",
+      "save": "Salvar certificado",
+      "saving": "Salvando…",
+      "compressing": "Preparando o arquivo…",
+      "uploading": "Enviando o arquivo…",
+      "cancel": "Cancelar"
+    },
+    "row": {
+      "open": "Abrir arquivo",
+      "opening": "Abrindo…",
+      "edit": "Editar",
+      "delete": "Excluir",
+      "noFile": "Sem arquivo",
+      "issued": "Emitido",
+      "expires": "Vence",
+      "workload": "{hours} h"
+    },
+    "delete": {
+      "title": "Excluir este certificado?",
+      "description": "O certificado e o arquivo são apagados. Não dá para desfazer.",
+      "confirm": "Excluir",
+      "deleting": "Excluindo…",
+      "cancel": "Cancelar"
+    },
+    "errors": {
+      "title": { "required": "Dê um título ao certificado." },
+      "workload_hours": { "negative": "A carga horária não pode ser negativa." },
+      "expires_on": { "before_issued": "O vencimento não pode ser antes da emissão." },
+      "verification_url": { "invalid_url": "O link precisa começar com http:// ou https://." },
+      "file": {
+        "mime": "Só PDF, PNG ou JPG.",
+        "too_big": "O arquivo passa de 5 MB."
+      },
+      "file_upload_failed": "Certificado salvo, mas o arquivo falhou. Edite e reenvie.",
+      "not_authenticated": "Sua sessão expirou. Entre de novo.",
+      "not_found": "Certificado não encontrado.",
+      "no_file": "Este certificado não tem arquivo.",
+      "unknown": "Alguma coisa quebrou. Tente de novo."
+    }
+  },
   "page": {
     "soonTitle": "Esta tela ainda não existe",
     "soon": "Ela entra na Fase {phase}. A casca já está de pé para você navegar."

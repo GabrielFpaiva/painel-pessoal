@@ -76,6 +76,72 @@
       "unknown": "Something broke while creating the account. Try again."
     }
   },
+  "certificates": {
+    "title": "Certificates",
+    "new": "New certificate",
+    "count": "{count, plural, =0 {No certificates} one {# certificate} other {# certificates}}",
+    "loading": "Loading certificates…",
+    "empty": {
+      "title": "No certificates yet",
+      "description": "Keep your certificates here, with the file and a verification link.",
+      "cta": "Add the first one"
+    },
+    "form": {
+      "createTitle": "New certificate",
+      "editTitle": "Edit certificate",
+      "titleLabel": "Title",
+      "titlePlaceholder": "AWS Certified Cloud Practitioner",
+      "institutionLabel": "Institution",
+      "issuedOnLabel": "Issued on",
+      "expiresOnLabel": "Expires on",
+      "workloadLabel": "Workload (h)",
+      "credentialLabel": "Credential ID",
+      "verificationUrlLabel": "Verification link",
+      "fileLabel": "File",
+      "fileHint": "PDF, PNG or JPG, up to 5 MB. Optional.",
+      "fileCurrent": "Current file",
+      "fileReplace": "Choose another file",
+      "publicLabel": "Show on public profile",
+      "publicHint": "The file never shows — only the card and the verification link.",
+      "save": "Save certificate",
+      "saving": "Saving…",
+      "compressing": "Preparing the file…",
+      "uploading": "Uploading the file…",
+      "cancel": "Cancel"
+    },
+    "row": {
+      "open": "Open file",
+      "opening": "Opening…",
+      "edit": "Edit",
+      "delete": "Delete",
+      "noFile": "No file",
+      "issued": "Issued",
+      "expires": "Expires",
+      "workload": "{hours} h"
+    },
+    "delete": {
+      "title": "Delete this certificate?",
+      "description": "The certificate and its file are removed. This cannot be undone.",
+      "confirm": "Delete",
+      "deleting": "Deleting…",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "title": { "required": "Give the certificate a title." },
+      "workload_hours": { "negative": "Workload cannot be negative." },
+      "expires_on": { "before_issued": "Expiry cannot be before the issue date." },
+      "verification_url": { "invalid_url": "The link must start with http:// or https://." },
+      "file": {
+        "mime": "Only PDF, PNG or JPG.",
+        "too_big": "The file is over 5 MB."
+      },
+      "file_upload_failed": "Certificate saved, but the file failed. Edit and re-upload.",
+      "not_authenticated": "Your session expired. Sign in again.",
+      "not_found": "Certificate not found.",
+      "no_file": "This certificate has no file.",
+      "unknown": "Something broke. Try again."
+    }
+  },
   "page": {
     "soonTitle": "This screen does not exist yet",
     "soon": "It lands in Phase {phase}. The shell is already up so you can navigate."
